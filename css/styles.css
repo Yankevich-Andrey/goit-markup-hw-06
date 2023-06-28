@@ -412,7 +412,7 @@ body {
 }
 
 .tittle {
-  text-align: left;
+  text-align: center;
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
@@ -1168,6 +1168,10 @@ body {
       url(../images/bg-tablet.jpg);
   }
 
+  .tittle {
+    text-align: left;
+  }
+
   .icons-list {
     flex-direction: row;
     gap: 72px 24px;
@@ -1272,6 +1276,7 @@ body {
   }
 
   .tittle {
+    text-align: left;
     font-weight: 500;
     font-size: 20px;
   }
